@@ -1,8 +1,15 @@
 {
   "name": "r0314-mean-guestbook",
   "version": "1.0.0",
-  "description": "guestbook-app",
+  "description": "project1-guestbook",
   "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,21 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/LurryLarry/R0314-MEAN-Guestbook.git"
   },
-  "keywords": [
-    "guestbook"
-  ],
   "author": "lari vesterinen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LurryLarry/R0314-MEAN-Guestbook/issues"
   },
-  "homepage": "https://github.com/LurryLarry/R0314-MEAN-Guestbook#readme",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "eslint": "^6.8.0"
-  }
+  "homepage": "https://github.com/LurryLarry/R0314-MEAN-Guestbook#readme"
 }
