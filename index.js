@@ -33,9 +33,15 @@ app.get("/newmessageajax", function(req, res) {
     res.sendFile(__dirname + "/public/newmessageajax.html");
 });
 
+app.get("/fetchmessage", function(req, res) {
+    res.sendFile(__dirname + "/public/fetchmessage.html");
+});
+
 app.get("*", function(req, res) {
     res.send("Cant find the requested page", 404);
 });
+
+
 
 let data = require(__dirname + "/public/api/data.json");
 

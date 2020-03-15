@@ -24,8 +24,12 @@ button {
     display: block !important;
 }
 
+.pure-u-1-4 {
+    margin: 20px;
+}
+
 h1 {
-    color: #c0c0c0;
+    color: #ff8c00;
 }
 
 .pure-form {
