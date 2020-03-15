@@ -52,7 +52,7 @@ window.onload = () => {
                 let message = document.getElementById("comment").value;
 
                 $.post({
-                    async: false,
+                    async: true,
                     type: "POST",
                     url: "/update-with-ajax",
                     dataType: "json",
